@@ -3,31 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AC956039249CF42200A20BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC956038249CF42200A20BDF /* AppDelegate.swift */; };
 		AC95603B249CF42200A20BDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95603A249CF42200A20BDF /* SceneDelegate.swift */; };
-		AC95603D249CF42200A20BDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95603C249CF42200A20BDF /* ViewController.swift */; };
-		AC956040249CF42200A20BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC95603E249CF42200A20BDF /* Main.storyboard */; };
+		AC95603D249CF42200A20BDF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95603C249CF42200A20BDF /* LoginViewController.swift */; };
 		AC956042249CF42500A20BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC956041249CF42500A20BDF /* Assets.xcassets */; };
 		AC956045249CF42500A20BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC956043249CF42500A20BDF /* LaunchScreen.storyboard */; };
+		AC95605E249CF58400A20BDF /* LoginExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95605D249CF58400A20BDF /* LoginExampleTest.swift */; };
+		AC956067249CF6BC00A20BDF /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC956066249CF6BC00A20BDF /* RxSwift */; };
+		AC956069249CF6BC00A20BDF /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = AC956068249CF6BC00A20BDF /* RxRelay */; };
+		AC95606B249CF6BC00A20BDF /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = AC95606A249CF6BC00A20BDF /* RxCocoa */; };
+		AC95606E249CFCA500A20BDF /* LoginFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95606D249CFCA500A20BDF /* LoginFactory.swift */; };
+		AC956070249CFD8400A20BDF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95606F249CFD8400A20BDF /* LoginViewModel.swift */; };
+		AC956072249CFE8800A20BDF /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC956071249CFE8800A20BDF /* LoginPresenter.swift */; };
+		AC95608424A153BC00A20BDF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AC95608324A153BC00A20BDF /* SnapKit */; };
+		AC95609624A156C800A20BDF /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95609524A156C800A20BDF /* String+Extensions.swift */; };
+		AC95609824A15BCA00A20BDF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95609724A15BCA00A20BDF /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC956063249CF58800A20BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC95602D249CF42200A20BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC956034249CF42200A20BDF;
+			remoteInfo = LoginExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AC956035249CF42200A20BDF /* LoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC956038249CF42200A20BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC95603A249CF42200A20BDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC95603C249CF42200A20BDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC95603F249CF42200A20BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC95603C249CF42200A20BDF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC956041249CF42500A20BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC956044249CF42500A20BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC956046249CF42500A20BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC95605B249CF58400A20BDF /* LoginExampleTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginExampleTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC95605D249CF58400A20BDF /* LoginExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginExampleTest.swift; sourceTree = "<group>"; };
+		AC95605F249CF58400A20BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC95606D249CFCA500A20BDF /* LoginFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFactory.swift; sourceTree = "<group>"; };
+		AC95606F249CFD8400A20BDF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AC956071249CFE8800A20BDF /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		AC95609524A156C800A20BDF /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		AC95609724A15BCA00A20BDF /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC956032249CF42200A20BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC95606B249CF6BC00A20BDF /* RxCocoa in Frameworks */,
+				AC95608424A153BC00A20BDF /* SnapKit in Frameworks */,
+				AC956069249CF6BC00A20BDF /* RxRelay in Frameworks */,
+				AC956067249CF6BC00A20BDF /* RxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC956058249CF58400A20BDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				AC956037249CF42200A20BDF /* LoginExample */,
+				AC95605C249CF58400A20BDF /* LoginExampleTest */,
 				AC956036249CF42200A20BDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				AC956035249CF42200A20BDF /* LoginExample.app */,
+				AC95605B249CF58400A20BDF /* LoginExampleTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +95,44 @@
 		AC956037249CF42200A20BDF /* LoginExample */ = {
 			isa = PBXGroup;
 			children = (
+				AC95609424A156A100A20BDF /* Helpers */,
 				AC956038249CF42200A20BDF /* AppDelegate.swift */,
 				AC95603A249CF42200A20BDF /* SceneDelegate.swift */,
-				AC95603C249CF42200A20BDF /* ViewController.swift */,
-				AC95603E249CF42200A20BDF /* Main.storyboard */,
+				AC95606C249CFC8D00A20BDF /* Login */,
 				AC956041249CF42500A20BDF /* Assets.xcassets */,
 				AC956043249CF42500A20BDF /* LaunchScreen.storyboard */,
 				AC956046249CF42500A20BDF /* Info.plist */,
 			);
 			path = LoginExample;
+			sourceTree = "<group>";
+		};
+		AC95605C249CF58400A20BDF /* LoginExampleTest */ = {
+			isa = PBXGroup;
+			children = (
+				AC95605D249CF58400A20BDF /* LoginExampleTest.swift */,
+				AC95605F249CF58400A20BDF /* Info.plist */,
+			);
+			path = LoginExampleTest;
+			sourceTree = "<group>";
+		};
+		AC95606C249CFC8D00A20BDF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AC95606D249CFCA500A20BDF /* LoginFactory.swift */,
+				AC956071249CFE8800A20BDF /* LoginPresenter.swift */,
+				AC95603C249CF42200A20BDF /* LoginViewController.swift */,
+				AC95606F249CFD8400A20BDF /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AC95609424A156A100A20BDF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AC95609524A156C800A20BDF /* String+Extensions.swift */,
+				AC95609724A15BCA00A20BDF /* ActivityIndicator.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +151,33 @@
 			dependencies = (
 			);
 			name = LoginExample;
+			packageProductDependencies = (
+				AC956066249CF6BC00A20BDF /* RxSwift */,
+				AC956068249CF6BC00A20BDF /* RxRelay */,
+				AC95606A249CF6BC00A20BDF /* RxCocoa */,
+				AC95608324A153BC00A20BDF /* SnapKit */,
+			);
 			productName = LoginExample;
 			productReference = AC956035249CF42200A20BDF /* LoginExample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AC95605A249CF58400A20BDF /* LoginExampleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC956060249CF58400A20BDF /* Build configuration list for PBXNativeTarget "LoginExampleTest" */;
+			buildPhases = (
+				AC956057249CF58400A20BDF /* Sources */,
+				AC956058249CF58400A20BDF /* Frameworks */,
+				AC956059249CF58400A20BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC956064249CF58800A20BDF /* PBXTargetDependency */,
+			);
+			name = LoginExampleTest;
+			productName = LoginExampleTest;
+			productReference = AC95605B249CF58400A20BDF /* LoginExampleTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +192,10 @@
 					AC956034249CF42200A20BDF = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					AC95605A249CF58400A20BDF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AC956034249CF42200A20BDF;
+					};
 				};
 			};
 			buildConfigurationList = AC956030249CF42200A20BDF /* Build configuration list for PBXProject "LoginExample" */;
@@ -111,11 +207,16 @@
 				Base,
 			);
 			mainGroup = AC95602C249CF42200A20BDF;
+			packageReferences = (
+				AC956065249CF6BC00A20BDF /* XCRemoteSwiftPackageReference "RxSwift" */,
+				AC95608224A153BC00A20BDF /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = AC956036249CF42200A20BDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AC956034249CF42200A20BDF /* LoginExample */,
+				AC95605A249CF58400A20BDF /* LoginExampleTest */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +228,13 @@
 			files = (
 				AC956045249CF42500A20BDF /* LaunchScreen.storyboard in Resources */,
 				AC956042249CF42500A20BDF /* Assets.xcassets in Resources */,
-				AC956040249CF42200A20BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC956059249CF58400A20BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +245,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC95603D249CF42200A20BDF /* ViewController.swift in Sources */,
+				AC956072249CFE8800A20BDF /* LoginPresenter.swift in Sources */,
+				AC95609624A156C800A20BDF /* String+Extensions.swift in Sources */,
+				AC95603D249CF42200A20BDF /* LoginViewController.swift in Sources */,
 				AC956039249CF42200A20BDF /* AppDelegate.swift in Sources */,
+				AC95606E249CFCA500A20BDF /* LoginFactory.swift in Sources */,
+				AC95609824A15BCA00A20BDF /* ActivityIndicator.swift in Sources */,
+				AC956070249CFD8400A20BDF /* LoginViewModel.swift in Sources */,
 				AC95603B249CF42200A20BDF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC956057249CF58400A20BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC95605E249CF58400A20BDF /* LoginExampleTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		AC95603E249CF42200A20BDF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC95603F249CF42200A20BDF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		AC956064249CF58800A20BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC956034249CF42200A20BDF /* LoginExample */;
+			targetProxy = AC956063249CF58800A20BDF /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		AC956043249CF42500A20BDF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.andrecocuroci.LoginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +430,47 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.andrecocuroci.LoginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AC956061249CF58400A20BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoginExampleTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andrecocuroci.LoginExampleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginExample.app/LoginExample";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		AC956062249CF58400A20BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoginExampleTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andrecocuroci.LoginExampleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginExample.app/LoginExample";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
 			};
 			name = Release;
 		};
@@ -335,7 +495,58 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AC956060249CF58400A20BDF /* Build configuration list for PBXNativeTarget "LoginExampleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC956061249CF58400A20BDF /* Debug */,
+				AC956062249CF58400A20BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC956065249CF6BC00A20BDF /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		AC95608224A153BC00A20BDF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC956066249CF6BC00A20BDF /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC956065249CF6BC00A20BDF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		AC956068249CF6BC00A20BDF /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC956065249CF6BC00A20BDF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		AC95606A249CF6BC00A20BDF /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC956065249CF6BC00A20BDF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		AC95608324A153BC00A20BDF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC95608224A153BC00A20BDF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC95602D249CF42200A20BDF /* Project object */;
 }
